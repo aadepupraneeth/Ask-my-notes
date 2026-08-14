@@ -16,7 +16,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://ask-my-notes-4vfi1.onrender.com",
+        "https://ask-my-notes-4-vfi1.onrender.com/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
